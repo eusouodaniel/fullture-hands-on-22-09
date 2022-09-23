@@ -1,0 +1,92 @@
+html {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    /* background-image: url("https://neilpatel.com/wp-content/uploads/2017/12/codigos-html-para-paginas-web.jpeg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+h2 {
+    background-color: #FBBC05; color: aqua;
+    /* border: 3px solid #fff; */
+    /* border-radius: 15px;
+    border-bottom: 3px dotted #fff; */
+    color: aquamarine;
+    /* padding: 5px;
+    padding-top: 50px;
+    padding-left: 20px; */
+    /* padding-right: 15px; */
+    margin-bottom: 30px;
+    opacity: 0.8;
+    display: block;
+    /* text-decoration: underline; */
+}
+
+.image {
+    border-bottom: 3px solid #fff;
+    border-radius: 15px;
+}
+
+#image1 {
+    width: 250px;
+}
+
+#image2 {
+    width: 450px;
+    opacity: 0.5;
+}
+
+#image2:hover {
+    opacity: 1;
+}
+
+#strong p strong .p1 {
+    color: aquamarine;
+}
+
+/* .<nome_da_classe> */
+/* #.<id> */
+
+/* img {
+    
+} */
+
+.circle {
+    list-style: circle;
+}
+
+.disc {
+    list-style: disc;
+}
+
+#header ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+    list-style: none;
+}
+
+#header ul li {
+    display: inline;
+}
+
+#header ul li a {
+    background-color: yellow;
+    display: inline-block;
+    color: #000;
+    padding: 13px;
+    border-bottom: 2px solid #000;
+}
+
+#header ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 2px solid #fff;
+}
