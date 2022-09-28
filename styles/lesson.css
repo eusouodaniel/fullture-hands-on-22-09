@@ -1,0 +1,75 @@
+/* body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/29/00/30/abstract-1779380_960_720.png"), 
+    url("https://i.pinimg.com/736x/82/4b/87/824b877bf4c731e3fcc13a8881c3e982--desktop-computers-wallpaper-desktop.jpg");
+    background-position: right, left;
+    background-repeat: repeat, no-repeat;
+} */
+
+h1 {
+    width: 50%;
+    border-bottom: solid black;
+    color: blue;
+    /* border-bottom-width: medium;
+    border-bottom-style: double; */
+}
+
+p {
+    color: blue;
+}
+
+h1:hover {
+    width: 80%;
+    /* border-bottom: dotted black; */
+}
+
+ul li {
+    color: #FFF;
+    display: inline;
+}
+
+ul li:hover ul {
+    display: inline;
+}
+
+img {
+    width: 200px;
+    position: absolute;
+    /* float: left; */
+    left: 0px;
+    top: 0px; 
+    z-index: -1;
+}
+
+/* div::first-line {
+    color: aquamarine;
+} */
+
+p {
+    color: black;
+    text-align: left;
+}
+
+p:first-child {
+    color: aquamarine;
+    text-align: center;
+}
+
+input {
+    cursor: not-allowed;
+}
+
+input:required {
+    background-color: aquamarine;
+}
+
+input[type=text]:disabled {
+
+}
+
+input:disabled {
+    background: aquamarine;
+}
+
+/* textarea {
+    resize:none
+} */
