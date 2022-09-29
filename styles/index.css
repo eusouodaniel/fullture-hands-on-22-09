@@ -10,7 +10,8 @@ body {
     background-image: url("https://neilpatel.com/wp-content/uploads/2017/12/codigos-html-para-paginas-web.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    
 }
 
 h2 {

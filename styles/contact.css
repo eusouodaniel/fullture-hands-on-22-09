@@ -1,29 +1,36 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Andada");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  box-sizing:border-box;
+}
 
 body {
     background: rgb(110, 208, 250);
-    /* position: relative; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Andada', sans-serif;
     color: #fff 
 }
 
 #main {
-    /* position: relative; */
     max-width: 450px;
     margin: 150px auto 0;
 }
 
 #main input {
     border: 0;
-    border-bottom: 2px solid rgba(220, 220, 220, 0.61);
+    border-bottom: 2px solid rgb(250, 249, 249);
     width: 100%;
     font-size: 2em;
-    /* line-height: 35px; */
+    /* line-height: 35px; - configurar altura da linha */
     height: 70px;
     text-align: center;
     padding: 10px;
     background: transparent;
-    color: rgba(220, 220, 220, 0.61);
+    color: rgba(255, 255, 255, 0.955);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
 }
 
 #main input:focus {
@@ -75,4 +82,20 @@ body {
     box-shadow: none;
     background-color: #1976D2;
     color: #fff;
+}
+
+#footer-link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
+
+#footer-link:hover {
+    opacity: 1;
 }

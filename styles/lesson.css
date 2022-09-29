@@ -6,9 +6,11 @@
 } */
 
 h1 {
-    width: 50%;
+    width: 20%;
     border-bottom: solid black;
+    background-color: aqua;
     color: blue;
+    opacity: 0.5;
     /* border-bottom-width: medium;
     border-bottom-style: double; */
 }
