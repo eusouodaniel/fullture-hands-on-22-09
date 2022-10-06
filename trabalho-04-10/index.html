@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./styles/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles/index.css">
+        <title>Formulário de sentimento</title>
+    </head>
+    <body>
+        <main>
+            <h1 id="title">Good Vibes Form</h1>
+            <div class="master-div-style">
+                <p id="description">
+                    Fale sobre você
+                </p>
+                <form action="/sobre-voce">
+                    <div class="form-rows">
+                        <div class="labels">
+                            <label for="name" id="name-label">
+                                Nome
+                            </label>
+                        </div>
+                        <div class="fields">
+                            <input 
+                                type="text" 
+                                name="name" 
+                                id="name" 
+                                class="input-fields" 
+                                placeholder="Digite seu nome" 
+                                required 
+                            />
+                        </div>
+                    </div>
+                    <div class="form-rows">
+                        <div class="labels">
+                            <label for="email" id="email-label">
+                                Email
+                            </label>
+                        </div>
+                        <div class="fields">
+                            <input type="email" id="email" class="input-fields" placeholder="Digite seu email" required>
+                        </div>
+                    </div>
+                    <div class="form-rows">
+                        <div class="labels">
+                            <label for="number" id="number-label">
+                                Em uma escala de 1-10, como você está hoje?
+                            </label>
+                        </div>
+                        <div class="fields">
+                            <input type="number" id="number" class="input-fields" placeholder="Entre com um número entre 1 e 10" min="1" max="10">
+                        </div>
+                    </div>
+                    <div class="form-rows">
+                        <div class="labels">
+                            <label for="dropdown" id="dropdown-label">
+                                E onde que isso aconteceu?
+                            </label>
+                        </div>
+                        <div class="fields">
+                            <select name="location-of-positive-event" id="dropdown" class="dropdown">
+                                <option value="home">
+                                    Na minha casa
+                                </option>
+                                <option value="commute">
+                                    No meu computador
+                                </option>
+                                <option value="work">
+                                    No meu trabalho
+                                </option>
+                                <option value="outside">
+                                    Na rua
+                                </option>
+                                <option value="other">
+                                    Outros
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-rows">
+                        <div class="labels">
+                            <label for="time-of-day">
+                                Em qual momento do dia?
+                            </label>
+                        </div>
+                        <div class="fields">
+                            <ul id="time-of-day" style="list-style: none;">
+                                <li class="radio">
+                                    <label>
+                                        Manhã
+                                        <input name="time-radio" type="radio" value="1" class="user-selection">
+                                    </label>
+                                </li>
+                                <li class="radio">
+                                    <label>
+                                        Tarde
+                                        <input name="time-radio" type="radio" value="2" class="user-selection">
+                                    </label>
+                                </li>
+                                <li class="radio">
+                                    <label>
+                                        Noite
+                                        <input name="time-radio" type="radio" value="3" class="user-selection">
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-rows">
+                        <div class="labels">
+                            <label for="feelings">
+                                Quais emoções você teve?
+                                <br>
+                                (Selecione todas que se aplica)
+                            </label>
+                        </div>
+                        <div class="fields">
+                            <ul id="feelings" style="list-style: none;">
+                                <li class="radio">
+                                    <label>
+                                        <input name="feeling-check" value="1" type="checkbox" class="user-selection">
+                                        Animado
+                                    </label>
+                                </li>
+                                <li class="radio">
+                                    <label>
+                                        <input name="feeling-check" value="3" type="checkbox" class="user-selection">
+                                        Exaltado
+                                    </label>
+                                </li>
+                                <li class="radio">
+                                    <label>
+                                        <input name="feeling-check" value="4" type="checkbox" class="user-selection">
+                                        Amor
+                                    </label>
+                                </li>
+                                <li class="radio">
+                                    <label>
+                                        <input name="feeling-check" value="5" type="checkbox" class="user-selection">
+                                        Entusiasmo
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-rows">
+                        <div class="labels">
+                            <label for="event-details">
+                                Conte mais sobre suas experiências positivas.
+                            </label>
+                        </div>
+                        <div class="fields">
+                            <textarea id="event-details" class="input-fields" style="height: 50px;resize:vertical;font-family: Open Sans Condensed;" name="event-details" cols="1" rows="1" placeholder="Coloque suas experiências aqui"></textarea>
+                        </div>
+                    </div>
+                    <button class="button" id="submit" type="submit">Enviar</button>
+                </form>
+            </div>
+        </main>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Data de nascimento</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>daniel@fullture.com</td>
+                <td>34549000</td>
+                <td>16/10</td>
+                <td><i class="fa-video-camera"></i> | <button>Deletar</button></td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>daniel@fullture.com</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>daniel@fullture.com</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>daniel@fullture.com</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>daniel@fullture.com</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>daniel@fullture.com</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>daniel@fullture.com</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>daniel@fullture.com</td>
+                <td>34549000</td>
+                <td>16/10</td>
+            </tr>
+        </table>
+    </body>
+</html>

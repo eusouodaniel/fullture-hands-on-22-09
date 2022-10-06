@@ -1,0 +1,21 @@
+.button {
+    background-color: #fff;
+    /* color: #000; */
+}
+
+
+.color-red {
+    background: linear-gradient(
+        180deg,
+        rgb(254,116,103) 30%,
+        rgb(252,56,54) 90%
+    );
+}
+
+.color-red:hover {
+    background: linear-gradient(
+        180deg,
+        rgb(252,56,54) 90%,
+        rgb(254,116,103) 30%
+    );
+}

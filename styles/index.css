@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 1em;
 }
@@ -95,4 +99,8 @@ h2 {
     border-bottom: 1px solid #fff;
     
     
+}
+
+.my-button {
+    color: #FBBC05;
 }
