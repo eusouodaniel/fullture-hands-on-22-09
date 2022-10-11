@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col {
+    display: flex;
+}
+
+.col1 {
+    flex-direction: column;
+}
+
+.col2 {
+    flex-direction: column-reverse;
+}
+
+.item {
+    margin: 5px;
+    padding: 0 10px;
+    background: #228B22;
+    text-align: right;
+    font-size: 2em;
+    color: #fff;
+}

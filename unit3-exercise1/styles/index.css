@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    width: 50%;
+}
+
+.col1 {
+    flex-direction: column;
+}
+
+.col2 {
+    flex-direction: column-reverse;
+}
+
+.item {
+    margin: 5px;
+    padding: 0 10px;
+    background: #228B22;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+}
